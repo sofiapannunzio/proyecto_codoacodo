@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lan="en">
+<!--Aca seteo el idioma usando language english-->
+
+
+<head>
+
+    <link rel="stylesheet" href="css/estilos.css">
+    
+    <script src="https://kit.fontawesome.com/279de2e7c0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Simbolica 2</title>
+    
+
+</head>
+
+
+<body id="fondogeneral">
+    <header>
+
+        <nav id="cabecera">
+
+            <div class="cabecera1"><a href="index.html" id="c1">Indice</a><br></div>
+            <div class="cabecera2"><a href="productos.html" id="c2">Productos</a> <br> </div>
+            <div class="cabecera3"><a href="contacto.html" id="c3">Contacto</a> <br> </div>
+            <div class="cabecera4"><a href="conocenos.html" id="c4">Conoce mas sobre nosotros</a></div>
+
+
+        </nav>
+
+
+       <!-- <h1 class="h1modif">La Simbolica 2 <br>
+            Todo suelto </h1>-->
+
+        <div id="fraseconsulta">
+            <p><b>¡Bienvenido/a al espacio de consultas!</b><br>
+                <br><b>Recuerde que para poder disponer del servicio a domicilio es necesario que su compra tenga un
+                    valor igual o superior a $1.500</b><br>
+                <br><b>¡Muchas gracias!</b>
+            </p>
+
+        </div>
+
+
+
+
+    </header>
+
+
+
+    <section id="fondogrande">
+
+        <article id="fondoform">
+            
+
+            <div id="datosform">
+                <br><br><br><br>
+
+                <form method="post" enctype="text/plain"
+                    action="mailto:danielpannunzio62@gmail.com?subject=Consulta web" id="fvalida">
+
+                    <div class="form">
+
+                        Nombre y Apellido<label for="nombre" aria-required=""></label>:
+                        <div class="nombre">
+                            <input type="text" name="nombre" id="nombre">
+
+                            <br><br><br>
+                        </div>
+
+                        E-mail:
+
+                        <div class="email">
+                            <input type="email" name="email" id="email" required>
+                        </div>
+
+                        <br><br><br>
+
+                        ¿Cuál es el motivo de su consulta? <br>
+                        <div class="conjuntoopciones" id="interes"> <br>
+
+                            <input type="radio" name="interes" value="encargos" id="encargos"  required>Encargos
+                            <input type="radio" name="interes" value="precios" id="precios"  required>Precios
+                            <input type="radio" name="interes" value="stock" id="stock"  required>Stock
+                            <input type="radio" name="interes" value="otros" id="otros"  required>Otros
+
+                        </div>
+
+                        <br><br>
+
+                        Comentarios:
+                        <div class="comentarios">
+                            <textarea name="comentarios" rows="10" cols="50" placeholder="Ingrese sus comentarios"
+                                id="comentarios"></textarea>
+                        </div>
+                        <br><br><br>
+
+
+                        <br>
+
+                        <input type="submit" value="Enviar">&nbsp;
+
+                        <input type="reset" value="Limpiar">
+
+                        <p class="warnings" id="warnings"></p>
+
+
+                    </div>
+
+
+
+                </form>
+                <script src="js/validacion2_form.js"></script>
+
+            </div>  
+
+            <br>
+            <br><br><br><br>
+
+
+        </article>
+
+
+    </section>
+
+</body>
+
+<footer>
+    <div class="may2">
+        <br>
+        <p id="derechos"> <span class="fa-solid fa-copyright"></span> Copyright-LaSimbolica2</p>
+        <br>
+        <br>
+    </div>
+</footer>
+
+</html>
